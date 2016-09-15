@@ -1,0 +1,146 @@
+@media screen and (min-width: 319px ) and ( max-width:769px){
+    .head_div {
+        width: 15%;
+        height: 5%;
+        top: 0rem;
+        left: 0rem;
+    }
+    .head_div img{
+        width: 100%;
+        height: auto;
+    }
+    .mid {
+        padding-top: 17rem;
+    }
+    .head {
+        height: 30%;
+    }
+    .mid ul:nth-child(2) li {
+        width: 48%;
+    }
+    .mid ul:nth-child(2) li p:nth-child(1) {
+        font-size: 1.5rem;
+    }
+    .mid ul:nth-child(2) li img {
+        margin: 1.5rem auto;
+    }
+    .mid ul:nth-child(2) span:nth-child(1) {
+        font-size: 1.5rem;
+    }
+    .mid ul:nth-child(2) span:nth-child(2) {
+        font-size: 1.5rem;
+        padding-left: 0.3rem;
+    }
+    .mid .weather {
+        margin-bottom: 1rem;
+    }
+
+    .foot {
+        height: 10.5%;
+        margin: 0 auto;
+    }
+    .foot_container {
+        width: 15%;
+        border: 1px solid rgb(181,181,181);
+        margin-top: 0rem;
+    }
+    .foot_container hr {
+        margin: 0 auto;
+        height: 0px;
+        border-top: 1px solid rgb(161, 161, 161);
+    }
+    .extral {
+        width: 65%;
+        height: 30%;
+        left: 17%;
+    }
+
+    .head p:nth-child(1) {
+        margin-top: 6%;
+    }
+    .mid ul:nth-child(1) li p {
+        font-size: 2.5rem;
+    }
+    .today {
+        font-size: 1rem;
+        padding-right: 0rem;
+    }
+    .foot p {
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+}
+
+/*ipone5*/
+@media screen and (device-width: 320px){
+    .details {
+        top: 132%;
+    }
+    .foot_container hr {
+        margin: -2px auto;
+    }
+
+}
+/*Galaxy S5*/
+@media screen and (device-width: 360px){
+    .details {
+        top: 140%;
+    }
+    .mid {
+        padding-top: 18rem;
+    }
+}
+/*iphone6*/
+@media screen and (device-width: 375px){
+    .details {
+        top: 142%;
+    }
+    .mid {
+        padding-top: 18rem;
+    }
+}
+/*Nexus 5X*/
+@media screen and (device-width: 411px){
+    .details {
+        top: 142%;
+    }
+    .mid {
+        padding-top: 19rem;
+    }
+}
+/*6 plus*/
+@media screen and (device-width: 414px){
+    .details {
+        top: 148%;
+    }
+    .mid {
+        padding-top: 19rem;
+    }
+}
+/*Nexus 6P*/
+@media screen and (device-width: 435px){
+    .details {
+        top: 151%;
+    }
+    .mid {
+        padding-top: 19rem;
+    }
+}
+/*ipad*/
+@media screen and (device-width: 768px){
+    .details {
+        top: 167%;
+    }
+    .foot_container hr {
+        margin: 4px auto;
+        height: 3px;
+    }
+    .mid {
+        padding-top: 25rem;
+    }
+    .foot p {
+        margin-top: 4rem;
+        margin-left: 3rem;
+        font-size: 3rem;
+    }
+}
