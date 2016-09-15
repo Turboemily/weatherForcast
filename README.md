@@ -1,1 +1,3 @@
 # weatherForcast
+利用ajax请求从百度api获取数据
+查询天气
